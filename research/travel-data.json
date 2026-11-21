@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-21",
+  "timeZone": "Asia/Taipei",
+  "statusDefinitions": {
+    "已驗證": "官方公開來源支持景點或活動事實及適用的日期。",
+    "待確認": "關鍵遊覽條件仍須核對，詳見 visitNotes。",
+    "模擬資料": "僅供測試，不得作為真實旅遊情報發布。"
+  },
+  "records": [
+    {
+      "id": "taipei-zoo",
+      "name": "臺北市立動物園",
+      "type": "景點",
+      "status": "已驗證",
+      "region": {
+        "city": "臺北市",
+        "district": "文山區"
+      },
+      "features": "園區有動物展示與野餐空間。",
+      "audiences": [
+        "親子"
+      ],
+      "audienceFit": {
+        "親子": "可挑選孩子感興趣的動物展區觀察，在景點之間安排休息。"
+      },
+      "activityDates": {
+        "status": "不適用",
+        "start": null,
+        "end": null
+      },
+      "sources": [
+        {
+          "name": "交通部觀光署／臺灣觀光資訊網",
+          "url": "https://www.taiwan.net.tw/m1.aspx?id=230&sNo=0001016",
+          "accessedOn": "2026-11-21",
+          "supports": "地區、動物展示與野餐空間"
+        }
+      ],
+      "checkedOn": "2026-11-21",
+      "visitNotes": "依同行兒童的步行耐力選擇展區，出發前查園方公告。"
+    },
+    {
+      "id": "yilan-traditional-arts",
+      "name": "宜蘭傳藝園區",
+      "type": "景點",
+      "status": "已驗證",
+      "region": {
+        "city": "宜蘭縣",
+        "district": "五結鄉"
+      },
+      "features": "冬山河畔的園區以傳統聚落為設計靈感，可看到傳統街屋與工藝坊。",
+      "audiences": [
+        "親子",
+        "熟齡"
+      ],
+      "audienceFit": {
+        "親子": "可從布袋戲偶等工藝認識傳統文化。",
+        "熟齡": "可按步行負荷挑選街區，安排懷舊工藝主題。"
+      },
+      "activityDates": {
+        "status": "不適用",
+        "start": null,
+        "end": null
+      },
+      "sources": [
+        {
+          "name": "宜蘭縣政府／觀光多媒體開放資料",
+          "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_376420000a_000231",
+          "accessedOn": "2026-11-21",
+          "supports": "地區、河畔位置、聚落與工藝特色",
+          "sourceRecordId": "Attraction_376420000A_000231"
+        }
+      ],
+      "checkedOn": "2026-11-21",
+      "visitNotes": "若提案包含工藝體驗或演出，另查當日場次與參加條件。"
+    },
+    {
+      "id": "nantou-xiangshan-cycling",
+      "name": "日月潭自行車道－向山段",
+      "type": "景點",
+      "status": "已驗證",
+      "region": {
+        "city": "南投縣",
+        "district": "魚池鄉"
+      },
+      "features": "路線連接水社與向山遊客中心，部分路段沿湖面延伸。",
+      "audiences": [
+        "情侶"
+      ],
+      "audienceFit": {
+        "情侶": "可將湖景騎行與攝影排成同一段行程。"
+      },
+      "activityDates": {
+        "status": "不適用",
+        "start": null,
+        "end": null
+      },
+      "sources": [
+        {
+          "name": "交通部觀光署日月潭國家風景區管理處／觀光多媒體開放資料",
+          "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_a15010600h_000018",
+          "accessedOn": "2026-11-21",
+          "supports": "地區、路線起訖及臨水路段",
+          "sourceRecordId": "Attraction_A15010600H_000018"
+        }
+      ],
+      "checkedOn": "2026-11-21",
+      "visitNotes": "依騎乘能力規劃路段，出發前確認天候與封閉公告。"
+    },
+    {
+      "id": "taichung-gaomei-boardwalk",
+      "name": "高美濕地木棧道遊覽",
+      "type": "景點",
+      "status": "待確認",
+      "region": {
+        "city": "臺中市",
+        "district": "清水區"
+      },
+      "features": "高美濕地位於大甲溪口南側，是可觀察鳥類與河口生態的地點。",
+      "audiences": [
+        "情侶",
+        "親子"
+      ],
+      "audienceFit": {
+        "情侶": "可規劃賞景與攝影，實際動線視木棧道公告。",
+        "親子": "可安排賞鳥與河口生態觀察，先確認天候與通行範圍。"
+      },
+      "activityDates": {
+        "status": "不適用",
+        "start": null,
+        "end": null
+      },
+      "sources": [
+        {
+          "name": "臺中市政府觀光旅遊局／觀光多媒體開放資料",
+          "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_387000000a_000054",
+          "accessedOn": "2026-11-21",
+          "supports": "地區、河口生態與賞鳥特色",
+          "sourceRecordId": "Attraction_387000000A_000054"
+        },
+        {
+          "name": "臺中市海岸資源漁業發展所／木棧道開放時間",
+          "url": "https://www.links.taichung.gov.tw/837108/2758517/2758920/2768069",
+          "accessedOn": "2026-11-21",
+          "supports": "木棧道開放會依潮汐、天候及工程調整"
+        }
+      ],
+      "checkedOn": "2026-11-21",
+      "visitNotes": "木棧道是否可走須等旅客確定到訪日，再查管理機關及現場公告。"
+    },
+    {
+      "id": "chiayi-npm-south",
+      "name": "國立故宮博物院南部院區",
+      "type": "景點",
+      "status": "已驗證",
+      "region": {
+        "city": "嘉義縣",
+        "district": "太保市"
+      },
+      "features": "館內以館藏文物與亞洲文化為展覽主題，戶外園區有環湖步道與公共藝術。",
+      "audiences": [
+        "熟齡",
+        "親子"
+      ],
+      "audienceFit": {
+        "熟齡": "可把館內觀展排為主行程，依體力決定是否走戶外步道。",
+        "親子": "可先選定一項展覽主題，再視孩子體力安排戶外活動。"
+      },
+      "activityDates": {
+        "status": "不適用",
+        "start": null,
+        "end": null
+      },
+      "sources": [
+        {
+          "name": "交通部觀光署雲嘉南濱海國家風景區管理處／觀光多媒體開放資料",
+          "url": "https://media.taiwan.net.tw/en-us/portal/travel/details/attraction_a15011100h_000490",
+          "accessedOn": "2026-11-21",
+          "supports": "地區與場館名稱",
+          "sourceRecordId": "Attraction_A15011100H_000490"
+        },
+        {
+          "name": "交通部觀光署／臺灣觀光資訊網",
+          "url": "https://www.taiwan.net.tw/m1.aspx?id=a12-00234&sNo=0001016",
+          "accessedOn": "2026-11-21",
+          "supports": "館藏展覽、環湖步道及公共藝術"
+        }
+      ],
+      "checkedOn": "2026-11-21",
+      "visitNotes": "出發前查當期展覽與參觀動線。有行動需求時另確認可用設施。"
+    },
+    {
+      "id": "tainan-chimei-museum",
+      "name": "奇美博物館",
+      "type": "景點",
+      "status": "已驗證",
+      "region": {
+        "city": "臺南市",
+        "district": "仁德區"
+      },
+      "features": "館藏涵蓋西洋藝術、樂器與自然史，場館位於臺南都會公園。",
+      "audiences": [
+        "熟齡",
+        "情侶"
+      ],
+      "audienceFit": {
+        "熟齡": "可依興趣挑選館內展區，將戶外活動留作彈性安排。",
+        "情侶": "可將館內藝術展覽與戶外景觀搭配。"
+      },
+      "activityDates": {
+        "status": "不適用",
+        "start": null,
+        "end": null
+      },
+      "sources": [
+        {
+          "name": "交通部觀光署／臺灣觀光資訊網",
+          "url": "https://www.taiwan.net.tw/m1.aspx?id=2574&sNo=0001016",
+          "accessedOn": "2026-11-21",
+          "supports": "地區、館藏主題與園區位置"
+        }
+      ],
+      "checkedOn": "2026-11-21",
+      "visitNotes": "出發前查當期展覽、館方公告與所需的友善設施。"
+    },
+    {
+      "id": "newtaipei-shifen-waterfall",
+      "name": "十分瀑布",
+      "type": "景點",
+      "status": "已驗證",
+      "region": {
+        "city": "新北市",
+        "district": "平溪區"
+      },
+      "features": "十分瀑布是幕簾式瀑布，位於十分風景特定區。",
+      "audiences": [
+        "情侶"
+      ],
+      "audienceFit": {
+        "情侶": "適合以瀑布觀景與自然攝影為主的短訪。"
+      },
+      "activityDates": {
+        "status": "不適用",
+        "start": null,
+        "end": null
+      },
+      "sources": [
+        {
+          "name": "交通部觀光署／臺灣觀光資訊網",
+          "url": "https://www.taiwan.net.tw/m1.aspx?id=2188&sNo=0001016",
+          "accessedOn": "2026-11-21",
+          "supports": "地區與瀑布地形"
+        }
+      ],
+      "checkedOn": "2026-11-21",
+      "visitNotes": "出發前核對步道開放情況與同行者可接受的步行負荷。"
+    },
+    {
+      "id": "hualien-qixingtan",
+      "name": "七星潭海岸風景特定區",
+      "type": "景點",
+      "status": "已驗證",
+      "region": {
+        "city": "花蓮縣",
+        "district": "新城鄉"
+      },
+      "features": "弧形海灣與礫石灘可作為觀察沿海地貌的主題。",
+      "audiences": [
+        "情侶",
+        "熟齡"
+      ],
+      "audienceFit": {
+        "情侶": "可安排海景攝影。",
+        "熟齡": "可依個人步行負荷選擇岸上觀景點。"
+      },
+      "activityDates": {
+        "status": "不適用",
+        "start": null,
+        "end": null
+      },
+      "sources": [
+        {
+          "name": "花蓮縣政府／觀光多媒體開放資料",
+          "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_376550000a_001190",
+          "accessedOn": "2026-11-21",
+          "supports": "地區、海灣與礫石灘",
+          "sourceRecordId": "Attraction_376550000A_001190"
+        }
+      ],
+      "checkedOn": "2026-11-21",
+      "visitNotes": "出發前查天候與沿岸警示，行程安排以岸上觀景為主。"
+    },
+    {
+      "id": "newtaipei-christmasland-2026",
+      "name": "2026新北歡樂耶誕城",
+      "type": "活動",
+      "status": "已驗證",
+      "region": {
+        "city": "新北市",
+        "district": "板橋區"
+      },
+      "features": "板橋設有主燈區，活動包括節慶燈飾與燈光展演。",
+      "audiences": [
+        "親子",
+        "情侶"
+      ],
+      "audienceFit": {
+        "親子": "可挑一個主題燈區安排短程賞燈。",
+        "情侶": "可規劃夜間賞燈與合照。"
+      },
+      "activityDates": {
+        "status": "已驗證",
+        "start": "2026-11-13",
+        "end": "2026-12-27"
+      },
+      "sources": [
+        {
+          "name": "新北市政府觀光旅遊局／新北市觀光旅遊網",
+          "url": "https://newtaipei.travel/zh-tw/calendar/detail/4068",
+          "accessedOn": "2026-11-21",
+          "supports": "地區、整體活動起訖及燈飾特色"
+        },
+        {
+          "name": "新北歡樂耶誕城官方網站",
+          "url": "https://christmasland.ntpc.gov.tw/",
+          "accessedOn": "2026-11-21",
+          "supports": "主燈區與系列活動入口"
+        }
+      ],
+      "checkedOn": "2026-11-21",
+      "visitNotes": "整體活動期間依新北市觀光旅遊網。子活動與人潮管制另查官網。"
+    },
+    {
+      "id": "taipei-shilin-chrysanthemums-2026",
+      "name": "2026士林官邸菊展",
+      "type": "活動",
+      "status": "已驗證",
+      "region": {
+        "city": "臺北市",
+        "district": "士林區"
+      },
+      "features": "以「菊映方圓」為題，將幾何造型融入花藝與地景展區。",
+      "audiences": [
+        "熟齡",
+        "情侶"
+      ],
+      "audienceFit": {
+        "熟齡": "可安排賞花，依步行負荷挑選展區。",
+        "情侶": "可把花藝裝置作為散步與攝影主題。"
+      },
+      "activityDates": {
+        "status": "已驗證",
+        "start": "2026-11-27",
+        "end": "2026-12-13"
+      },
+      "sources": [
+        {
+          "name": "臺北市政府工務局公園路燈工程管理處",
+          "url": "https://pkl.gov.taipei/News_Content.aspx?n=43E05059FCC72525&s=78C613717F657D3C&sms=72544237BBE4C5F6",
+          "accessedOn": "2026-11-21",
+          "supports": "活動地點、主題與展期"
+        },
+        {
+          "name": "臺北市政府觀光傳播局／臺北旅遊網",
+          "url": "https://travel.taipei/zh-tw/news/details/68307",
+          "accessedOn": "2026-11-21",
+          "supports": "展期與幾何花藝特色"
+        }
+      ],
+      "checkedOn": "2026-11-21",
+      "visitNotes": "展期依公園處公告。若要參加開幕或延伸活動，另查各場次資訊。"
+    }
+  ]
+}

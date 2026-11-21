@@ -1,0 +1,50 @@
+{
+  "label": "模擬資料",
+  "synthetic": true,
+  "currency": "TWD",
+  "budgetBasis": "同行旅客全團預算",
+  "cases": [
+    {
+      "id": "mock-family",
+      "segment": "親子",
+      "origin": "台北",
+      "destination": "宜蘭",
+      "days": 2,
+      "budget": 16000,
+      "maxContinuousWalkingMinutes": 20,
+      "interests": [
+        "室內親子活動",
+        "自然體驗"
+      ],
+      "contactConsent": false
+    },
+    {
+      "id": "mock-couple",
+      "segment": "情侶",
+      "origin": "台中",
+      "destination": "台南",
+      "days": 2,
+      "budget": 12000,
+      "maxContinuousWalkingMinutes": 45,
+      "interests": [
+        "散步",
+        "美食"
+      ],
+      "contactConsent": false
+    },
+    {
+      "id": "mock-mature",
+      "segment": "熟齡",
+      "origin": "台北",
+      "destination": "花蓮",
+      "days": 3,
+      "budget": 24000,
+      "maxContinuousWalkingMinutes": 15,
+      "interests": [
+        "自然景觀",
+        "充足休息"
+      ],
+      "contactConsent": false
+    }
+  ]
+}

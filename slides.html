@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>台灣旅遊情報｜旅行社行銷簡報</title>
+<style>
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:#080a0d;color:#f3eee4;font-family:"Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif}
+.deck{min-height:100vh;min-height:100dvh;display:grid;justify-items:center;align-content:center;gap:.85rem;padding:.75rem}
+.slide{position:relative;isolation:isolate;overflow:hidden;display:grid;align-items:center;width:min(100%,calc((100dvh - 5rem)*16/9),1440px);aspect-ratio:16/9;background:radial-gradient(ellipse at 100% 0%,var(--glow),transparent 58%),linear-gradient(150deg,#1c2025,#101317 65%);border:1px solid #35363b;border-radius:.8rem;box-shadow:0 1.25rem 3rem #0008;container-type:inline-size}
+.slide[hidden]{display:none}
+.content{position:relative;z-index:1;padding:4.7cqw 6.5cqw}
+.theme-1,.theme-8{--accent:#e5c48c;--glow:#382b1e}
+.theme-2,.theme-6{--accent:#cbd2dd;--glow:#252e3c}
+.theme-3{--accent:#ebbf93;--glow:#392820}
+.theme-4{--accent:#a5d0ce;--glow:#1e3437}
+.theme-5{--accent:#e1bad1;--glow:#352533}
+.theme-7{--accent:#c9d4a7;--glow:#2c3324}
+p,h1,h2,ul{margin:0}
+.part{display:flex;align-items:center;gap:.8em;font-size:2cqw;font-weight:800;letter-spacing:.12em;color:var(--accent);margin-bottom:1.1cqw}
+.part::before{content:"";width:1.65em;height:1px;background:currentColor}
+h1,h2{font-size:5.7cqw;line-height:1.16;letter-spacing:-.035em}
+.hero h1,.hero h2{font-size:7.4cqw}
+.hero .content{max-width:76%}
+.lead{font-size:2.5cqw;line-height:1.45;margin-top:1.55cqw;color:#d9d5cc}
+.note{font-size:1.55cqw;margin-top:1.5cqw;line-height:1.45;color:#c4c1b9}
+ul{list-style:none;padding:0;margin-top:2.6cqw;max-width:76cqw}
+li{border-top:1px solid #f5e9cd35;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.48fr);align-items:baseline;gap:2cqw;padding:1.2cqw 0}
+li strong{font-size:2.6cqw}
+li span{font-size:2.05cqw;line-height:1.45;color:#d9d5cc}
+footer{font-size:1.3cqw;margin-top:1.3cqw;display:flex;flex-wrap:wrap;gap:.4em 1em;color:#c4c1b9}
+footer a{color:var(--accent);text-underline-offset:.22em}
+.stamp{display:grid;place-items:center;position:absolute;right:-5cqw;bottom:-10cqw;width:40cqw;aspect-ratio:1;border-radius:50%;border:1px solid #e5c48c9c;outline:1px solid #e5c48c4d;outline-offset:1.85cqw;background:radial-gradient(circle at 30% 20%,#392d20,#151519 72%);color:var(--accent);font-weight:900;font-size:8cqw;letter-spacing:.12em;transform:rotate(-14deg)}
+nav{display:flex;align-items:center;justify-content:center;gap:.5rem;flex-wrap:wrap;color:#d9d5cc;font-size:.9rem}
+button{font:inherit;padding:.65rem .85rem;border:1px solid #55524e;background:#181b20;color:#f3eee4;border-radius:.45rem;cursor:pointer}
+button:hover:not(:disabled){border-color:#e5c48c;background:#252222}
+button:disabled{opacity:.48;cursor:default}
+button:focus-visible,a:focus-visible{outline:2px solid #ffe4ad;outline-offset:4px}
+output{min-width:3.5rem;text-align:center;font-variant-numeric:tabular-nums}
+.message{flex-basis:100%;text-align:center}
+.message:empty{display:none}
+@media(max-width:640px) and (orientation:portrait){.deck{align-content:start}.slide{width:100%;aspect-ratio:auto;min-height:min(72dvh,42rem);align-items:start}.content{padding:1.8rem 1.25rem}.hero .content{max-width:100%}.part,.note{font-size:1rem;margin-bottom:.65rem}.note{margin-top:1rem}h1,h2,.hero h1,.hero h2{font-size:clamp(2rem,9cqw,3.7rem)}.lead{font-size:1.2rem;margin-top:.8rem}ul{max-width:none;margin-top:1.25rem}li{grid-template-columns:1fr;gap:.25rem;padding:.65rem 0}li strong{font-size:1.18rem}li span{font-size:1rem}footer{font-size:.85rem;margin-top:.75rem}.stamp{width:47cqw;bottom:-8cqw;right:-4cqw;font-size:12cqw}.hero{padding-bottom:35cqw}}
+@media print{.deck{display:block;padding:0}.slide,.slide[hidden]{display:grid;width:100%;break-after:page;print-color-adjust:exact}.slide:last-of-type{break-after:auto}nav{display:none}}
+/* Pixel-art styling for the presentation and its controls. */
+:root{color-scheme:dark;--pixel-shadow:#09051b;--pixel-outline:#786abe}
+body{background:#100c22}
+.deck{background-image:linear-gradient(#33265455 1px,transparent 1px),linear-gradient(90deg,#33265455 1px,transparent 1px);background-size:24px 24px}
+.slide{background:linear-gradient(90deg,var(--glow),transparent 82%),#211a39;border:4px solid var(--accent);border-radius:0;box-shadow:6px 6px 0 var(--pixel-shadow)}
+.slide::before{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent 0 7px,#09051b20 7px 8px)}
+.theme-1,.theme-8{--accent:#fce775;--glow:#302055}
+.theme-2,.theme-6{--accent:#c9b4ff;--glow:#332451}
+.theme-3{--accent:#ffbc7d;--glow:#472645}
+.theme-4{--accent:#82e8f3;--glow:#183149}
+.theme-5{--accent:#ffb4dd;--glow:#42264e}
+.theme-7{--accent:#b9f48a;--glow:#223748}
+.part{gap:.9em;letter-spacing:.14em}
+.part::before{width:.43em;height:.43em;flex:none;box-shadow:.22em .22em 0 #09051b}
+h1,h2{color:#fff7ea;letter-spacing:.01em;font-weight:900;text-shadow:.06em .07em 0 #09051b}
+.lead,li span{color:#eee7ff}
+.note,footer{color:#d8cdec}
+li{border-top:2px dashed #bcace45e}
+footer a{text-underline-offset:.17em}
+.stamp{right:1.4cqw;bottom:6cqw;width:27cqw;border:0;border-radius:0;outline:none;background:#100b25;color:var(--accent);transform:none;font-size:5.1cqw;letter-spacing:.08em;clip-path:polygon(0 19%,10% 19%,10% 9%,20% 9%,20% 0,80% 0,80% 9%,90% 9%,90% 19%,100% 19%,100% 81%,90% 81%,90% 91%,80% 91%,80% 100%,20% 100%,20% 91%,10% 91%,10% 81%,0 81%)}
+.stamp::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,#0000 0 9px,#100b2529 9px 11px),var(--accent);clip-path:polygon(0 76%,8% 76%,8% 65%,15% 65%,15% 57%,22% 57%,22% 64%,29% 64%,29% 75%,36% 75%,36% 83%,45% 83%,45% 74%,52% 74%,52% 66%,60% 66%,60% 54%,67% 54%,67% 46%,74% 46%,74% 58%,81% 58%,81% 69%,89% 69%,89% 78%,100% 78%,100% 100%,0 100%);opacity:.32}
+.stamp::after{content:"";position:absolute;top:12%;right:24%;width:9%;height:9%;background:var(--accent);box-shadow:-2.3cqw .9cqw 0 -.6cqw var(--accent),2.4cqw 1.2cqw 0 -.65cqw var(--accent)}
+nav{gap:.7rem;color:#eee7ff}
+button{border:2px solid var(--pixel-outline);background:#29204b;color:#fff7ea;border-radius:0;box-shadow:3px 3px 0 var(--pixel-shadow);font-weight:700}
+button:hover:not(:disabled){border-color:#fce775;background:#3b2f62}
+button:focus-visible,a:focus-visible{outline:2px dashed #fce775}
+output{font-family:Consolas,monospace;letter-spacing:.08em;color:#fce775}
+@media(max-width:640px) and (orientation:portrait){
+  .slide{border-width:3px}
+  .stamp{bottom:1rem;right:1.2rem;width:34cqw;font-size:7cqw}
+  .hero{padding-bottom:37cqw}
+  nav{gap:.5rem}
+  button{padding:.55rem .65rem}
+}
+
+.hero{background:linear-gradient(90deg,#100b2770,transparent 84%),url("assets/taiwan-pixel-landscape.png") center/cover no-repeat,#211a39}
+.hero .stamp{display:none}
+.hero .content{max-width:68%}
+@media(max-width:640px) and (orientation:portrait){
+  .hero{background-image:linear-gradient(180deg,#100b2af5 0%,#100b2ab0 34%,transparent 80%),url("assets/taiwan-pixel-landscape.png");background-position:center,66% center}
+  .hero .content{max-width:100%}
+}
+</style></head><body>
+<main class="deck" aria-label="台灣旅遊情報簡報">
+<section class="slide theme-1 hero" id="slide-1" aria-labelledby="title-1" >
+<div class="content"><p class="part">課程主題</p><h1 id="title-1">台灣旅遊情報</h1>
+<p class="lead">從每週情報到旅遊提案</p>
+
+<p class="note">旅行社行銷課程｜2026.11.16–11.22</p>
+
+</div><div class="stamp" aria-hidden="true">台灣</div></section>
+<section class="slide theme-2" id="slide-2" aria-labelledby="title-2" hidden>
+<div class="content"><p class="part">市場需求</p><h2 id="title-2">三類旅客，三種出遊需求</h2>
+<p class="lead">諮詢時可先問</p>
+<ul><li><strong>親子</strong><span>孩子想看什麼？多久需要休息？</span></li><li><strong>情侶</strong><span>想一起騎車，還是慢慢拍照？</span></li><li><strong>熟齡</strong><span>想看展或賞花？希望多久休息一次？</span></li></ul>
+
+
+</div></section>
+<section class="slide theme-3" id="slide-3" aria-labelledby="title-3" hidden>
+<div class="content"><p class="part">親子旅遊</p><h2 id="title-3">讓孩子選旅行主題</h2>
+
+<ul><li><strong>臺北市立動物園</strong><span>選想看的動物，預留休息。</span></li><li><strong>宜蘭傳藝園區</strong><span>從工藝認識傳統文化。</span></li><li><strong>新北歡樂耶誕城</strong><span>選一個燈區賞燈。展期 2026.11.13–12.27。</span></li></ul>
+
+<footer>2026.11.21 查詢 <a href="https://www.taiwan.net.tw/m1.aspx?id=230&amp;sNo=0001016" target="_blank" rel="noopener noreferrer">動物園</a><a href="https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_376420000a_000231" target="_blank" rel="noopener noreferrer">傳藝園區</a><a href="https://newtaipei.travel/zh-tw/calendar/detail/4068" target="_blank" rel="noopener noreferrer">耶誕城展期</a></footer>
+</div></section>
+<section class="slide theme-4" id="slide-4" aria-labelledby="title-4" hidden>
+<div class="content"><p class="part">情侶旅遊</p><h2 id="title-4">選兩人都喜歡的節奏</h2>
+
+<ul><li><strong>日月潭向山段</strong><span>湖畔騎行，搭配湖景攝影。</span></li><li><strong>十分瀑布</strong><span>以瀑布攝影為主，先查步道開放。</span></li><li><strong>七星潭</strong><span>安排岸上看海與攝影。</span></li></ul>
+
+<footer>2026.11.21 查詢 <a href="https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_a15010600h_000018" target="_blank" rel="noopener noreferrer">向山段</a><a href="https://www.taiwan.net.tw/m1.aspx?id=2188&amp;sNo=0001016" target="_blank" rel="noopener noreferrer">十分瀑布</a><a href="https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_376550000a_001190" target="_blank" rel="noopener noreferrer">七星潭</a></footer>
+</div></section>
+<section class="slide theme-5" id="slide-5" aria-labelledby="title-5" hidden>
+<div class="content"><p class="part">熟齡旅遊</p><h2 id="title-5">看展或賞花，留時間休息</h2>
+
+<ul><li><strong>故宮南院</strong><span>挑一項亞洲文化主題展覽。</span></li><li><strong>奇美博物館</strong><span>從西洋藝術、樂器或自然史選一項。</span></li><li><strong>士林官邸菊展</strong><span>依步行需求挑展區。展期 2026.11.27–12.13。</span></li></ul>
+
+<footer>2026.11.21 查詢 <a href="https://www.taiwan.net.tw/m1.aspx?id=a12-00234&amp;sNo=0001016" target="_blank" rel="noopener noreferrer">故宮南院</a><a href="https://www.taiwan.net.tw/m1.aspx?id=2574&amp;sNo=0001016" target="_blank" rel="noopener noreferrer">奇美博物館</a><a href="https://pkl.gov.taipei/News_Content.aspx?n=43E05059FCC72525&amp;s=78C613717F657D3C&amp;sms=72544237BBE4C5F6" target="_blank" rel="noopener noreferrer">菊展展期</a></footer>
+</div></section>
+<section class="slide theme-6" id="slide-6" aria-labelledby="title-6" hidden>
+<div class="content"><p class="part">推薦方案</p><h2 id="title-6">從日期與偏好選方案</h2>
+
+<ul><li><strong>確認日期</strong><span>先篩掉展期不符的活動。</span></li><li><strong>選一個主題</strong><span>依興趣、步行時間和休息需求挑景點。</span></li><li><strong>確認成行條件</strong><span>查當日公告與動線，再提出方案。</span></li></ul>
+<p class="note">高美濕地木棧道待確認，請依到訪日查公告。</p>
+<footer>2026.11.21 查詢 <a href="https://www.links.taichung.gov.tw/837108/2758517/2758920/2768069" target="_blank" rel="noopener noreferrer">木棧道公告</a></footer>
+</div></section>
+<section class="slide theme-7" id="slide-7" aria-labelledby="title-7" hidden>
+<div class="content"><p class="part">旅行社的專業優勢（提案）</p><h2 id="title-7">讓旅客知道推薦的理由</h2>
+
+<ul><li><strong>查證情報</strong><span>提供官方來源與查詢日期。</span></li><li><strong>依需求規劃</strong><span>把旅遊偏好和行動需求寫進提案。</span></li><li><strong>出發前複查</strong><span>再核對開放狀態、場次與動線。</span></li></ul>
+
+
+</div></section>
+<section class="slide theme-8 hero" id="slide-8" aria-labelledby="title-8" hidden>
+<div class="content"><p class="part">諮詢行動</p><h2 id="title-8">下一趟，想怎麼玩？</h2>
+<p class="lead">告訴旅行社日期、出發地、同行者與偏好。</p>
+
+<p class="note">同意聯繫後，再交接聯絡資訊。</p>
+
+</div><div class="stamp" aria-hidden="true">出發</div></section>
+<nav aria-label="簡報控制"><button id="prev" type="button" aria-label="上一張">← 上一張</button><output id="count" aria-live="polite">1 / 8</output><button id="next" type="button" aria-label="下一張">下一張 →</button><button id="full" type="button">全螢幕</button><span class="message" id="message" role="status"></span></nav>
+</main>
+<noscript><style>.slide[hidden]{display:grid}nav{display:none}</style></noscript>
+<script>
+const slides = [...document.querySelectorAll('.slide')];
+const previous = document.getElementById('prev');
+const next = document.getElementById('next');
+const full = document.getElementById('full');
+const count = document.getElementById('count');
+const message = document.getElementById('message');
+let current = 0;
+function show(index) {
+  current = Math.max(0, Math.min(slides.length - 1, index));
+  slides.forEach((slide, position) => { slide.hidden = position !== current; });
+  previous.disabled = current === 0;
+  next.disabled = current === slides.length - 1;
+  count.value = (current + 1) + ' / ' + slides.length;
+}
+previous.addEventListener('click', () => show(current - 1));
+next.addEventListener('click', () => show(current + 1));
+async function toggleFullscreen() {
+  try {
+    if (document.fullscreenElement) await document.exitFullscreen();
+    else await document.documentElement.requestFullscreen();
+    message.textContent = '';
+  } catch {
+    message.textContent = '此瀏覽器目前無法進入全螢幕。';
+  }
+}
+full.addEventListener('click', toggleFullscreen);
+document.addEventListener('fullscreenchange', () => {
+  full.textContent = document.fullscreenElement ? '離開全螢幕' : '全螢幕';
+});
+document.addEventListener('keydown', event => {
+  if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+  if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+    event.preventDefault();
+    show(current + (event.key === 'ArrowRight' ? 1 : -1));
+  }
+});
+show(0);
+</script></body></html>

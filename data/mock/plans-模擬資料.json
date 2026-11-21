@@ -1,0 +1,58 @@
+{
+  "simulationLabel": "模擬資料",
+  "validFrom": "2026-11-21",
+  "validTo": "2027-12-31",
+  "plans": [
+    {
+      "id": "demo-yilan",
+      "name": "宜蘭工藝慢遊",
+      "audience": "親子",
+      "styles": ["親子共學", "工藝文化"],
+      "origin": "臺北市",
+      "minPeople": 3,
+      "maxPeople": 4,
+      "minPrice": 13500,
+      "maxPrice": 16000,
+      "walk": 25,
+      "facilities": [],
+      "schedule": [
+        ["yilan-traditional-arts", "從臺北市集合出發，安排傳統街屋與工藝主題導覽。"],
+        [null, "早餐後安排自由休息，預留返程時間。"]
+      ],
+      "included": "集合地往返及行程內交通、住宿一晚、早餐、行程門票與其他必要支出。",
+      "excluded": "自由時段自選餐飲、手作加購及集合前交通。"
+    },
+    {
+      "id": "demo-nantou",
+      "name": "日月潭湖畔騎行",
+      "audience": "情侶",
+      "styles": ["戶外騎行", "自然攝影"],
+      "origin": "臺中市",
+      "minPeople": 2,
+      "maxPeople": 2,
+      "minPrice": 6200,
+      "maxPrice": 7800,
+      "walk": 20,
+      "facilities": [],
+      "schedule": [["nantou-xiangshan-cycling", "從臺中市集合出發，規劃湖畔騎行、攝影停留及當日返程。"]],
+      "included": "集合地往返及行程內交通、單車租借、午餐與其他必要支出。當日往返，無住宿安排。",
+      "excluded": "自由時段自選餐飲、升級車款及集合前交通。"
+    },
+    {
+      "id": "demo-chiayi",
+      "name": "故宮南院觀展日",
+      "audience": "熟齡",
+      "styles": ["藝文觀展"],
+      "origin": "嘉義縣",
+      "minPeople": 2,
+      "maxPeople": 4,
+      "minPrice": 4200,
+      "maxPrice": 6800,
+      "walk": 15,
+      "facilities": [],
+      "schedule": [["chiayi-npm-south", "從嘉義縣集合出發，安排館內觀展、休息與回程。"]],
+      "included": "集合地往返及行程內交通、午餐、行程門票與其他必要支出。當日往返，無住宿安排。",
+      "excluded": "自由時段自選餐飲、紀念品及集合前交通。"
+    }
+  ]
+}

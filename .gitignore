@@ -1,0 +1,39 @@
+# 環境設定、憑證與本機服務設定
+.env
+.env.*
+.envrc
+.npmrc
+.netrc
+.git-credentials
+.ssh/
+.aws/
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+
+# 真實客戶資料與匯出名單
+/data/private/
+/data/leads/
+/data/customers/
+/exports/
+
+# 依賴、建置與暫存
+node_modules/
+dist/
+coverage/
+*.log
+*.tmp
+/qa-*-temporary.html
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 簡報及影片的二進位輸出，保留原始企劃、HTML 與圖片
+/slides.pptx
+/travel-pixel-imagegen.pptx
+/travel-watercolor-imagegen.pptx
+/video/taiwan-travel-30s.mp4
